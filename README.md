@@ -1,17 +1,16 @@
-Here's a clean and professional `README.md` for your **Personal Portfolio Website** project:
-
----
-
-```markdown
 # Personal Portfolio Website 🌐
 
 A modern, responsive **Personal Portfolio Website** to showcase my skills, projects, and professional journey in web development and AI/ML.
 
 ## 🔗 Live Demo
-👉 [View Portfolio](https://your-deployed-link.vercel.app)
+👉 [View Portfolio](https://my-portfolio-six-lime-33.vercel.app/)
 
 ## 📸 Screenshots
-![Portfolio Screenshot](images/work-3.png)
+![image](https://github.com/user-attachments/assets/e8f64b1f-a99f-4e6d-8b69-905866bef93b)
+![image](https://github.com/user-attachments/assets/f28bfffb-355d-4b9a-bd59-e803399d7f4c)
+![image](https://github.com/user-attachments/assets/d49226ef-8d19-4698-a140-698eba1aae31)
+
+
 
 ## 🛠️ Built With
 
