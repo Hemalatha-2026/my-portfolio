@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemalatha Maramreddy | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d6f781f49e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png"class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><span>Web</span> Developer & <span>AIML</span> Enthusiast</p>
+                <h1>Hi, I'm <span>Hemalatha</span><br> Maramreddy from India</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/my pic.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>I'm a Full Stack Developer passionate about creating beautiful, functional web experiences that make a difference.I'm a passionate developer with expertise in both web development and artificial intelligence. My goal is to build innovative solutions that bridge technology and user needs.When I'm not coding, I enjoy exploring new AI/ML technologies and contributing to open-source projects.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>HTML, CSS, JS</span><br>Frontend Development</li>
+                            <li><span>Node.js, React.js, MongoDB</span><br>Backend Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025 - Current</span><br>Btech CSE at VIT-AP University, Amaravati</li>
+                            <li><span>2022</span><br>Higher Education at Sri Chaitanya, Guntur</li>
+                            <li><span>2020</span><br>SSC at SKP School, Guntur</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!---------------services----------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>As a web designer planned, organized and created the Visual layouts and User experience of many websites.  </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>As a UI/UX designer created digital porducts that are both functional and enjoyable for users.  </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>ML Models building</h2>
+                <p>As an AIML Enthusiast build many ML models to solve the real world problems like Placement readiness for the students.  </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------portfolio------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Task Management App</h3>
+                    <p>The App that aims to streamline organization by helping users efficiently plan, track, and complete tasks.</p>
+                    <a href="https://accessible-task-hub-yra3.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Student Management System</h3>
+                    <p>MongoDB-based system for managing student records with CRUD operations, indexing, and relationships.</p>
+                    <a href="https://student-nexus-database-hub.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>Responsive portfolio showcasing projects, skills, and professional experience.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!---------------contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> maramreddyvenakanagahemalatha@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> 9885851420</p>
+                <p><i class="fas fa-map-marker-alt"></i> India</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/hemalatha-maramreddy-a7851526a" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Hemalatha-2026" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="maramreddyvenakanagahemalatha@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                    
+
+                </div>
+                <a href="images/my cv.pdf" download class="btn btn2">Download My CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-regular fa-copyright"></i> 2025 All copyrights Reserved to Hemalatha Maramreddy </p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxsQhi0NWzn60PKAO4RToimtzdAVzspKOitHl51-VBypdskhTVgyawR81-CU28Kcb6I/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent sucessfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
