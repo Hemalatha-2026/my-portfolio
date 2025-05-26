@@ -1,0 +1,20 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "Here's a clean and professional `README.md` for your **Personal Portfolio Website** project:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hemalatha-2026/my-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hemalatha-2026/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/Hemalatha-2026/my-portfolio#readme"
+}
