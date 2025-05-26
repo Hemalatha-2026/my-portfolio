@@ -1,8 +1,3 @@
-Here's a clean and professional `README.md` for your **Personal Portfolio Website** project:
-
----
-
-```markdown
 # Personal Portfolio Website 🌐
 
 A modern, responsive **Personal Portfolio Website** to showcase my skills, projects, and professional journey in web development and AI/ML.
