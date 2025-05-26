@@ -6,7 +6,10 @@ A modern, responsive **Personal Portfolio Website** to showcase my skills, proje
 👉 [View Portfolio](https://my-portfolio-six-lime-33.vercel.app/)
 
 ## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/e8f64b1f-a99f-4e6d-8b69-905866bef93b)
+![image](https://github.com/user-attachments/assets/f28bfffb-355d-4b9a-bd59-e803399d7f4c)
 ![image](https://github.com/user-attachments/assets/d49226ef-8d19-4698-a140-698eba1aae31)
+
 
 
 ## 🛠️ Built With
